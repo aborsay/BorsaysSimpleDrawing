@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <xyz.borsay.borsayssimpledrawing.DrawingView
+        android:id="@+id/drawing_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/background_random"
+        app:layout_constraintBottom_toTopOf="@id/ll_paint_colors"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <com.google.android.flexbox.FlexboxLayout
+
+        android:id="@+id/ll_paint_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@id/ib_brush"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/drawing_view">
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/black" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/grey"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/grey" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:src="@drawable/pallet_normal"
+            android:background="@color/white"
+            android:tag="@color/white" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:src="@drawable/pallet_normal"
+            android:background="@color/red"
+            android:tag="@color/red" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/purple"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/purple" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/dark_purple"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/dark_purple" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/navy_blue"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/navy_blue" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/blue"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/blue" />
+
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/green"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/green" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/light_green"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/light_green" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/yellow"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/yellow" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/gold"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/gold" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/orange"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/orange" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/dark_orange"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/dark_orange" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:background="@color/brown"
+            android:src="@drawable/pallet_normal"
+            android:tag="@color/brown" />
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/random_drawable"
+            android:scaleType="fitCenter"
+            android:src="@drawable/random_drawable"
+            android:tag="@color/random" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <ImageButton
+        android:id="@+id/ib_brush"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:src="@drawable/brush_med"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/ll_paint_colors" />
+</androidx.constraintlayout.widget.ConstraintLayout>

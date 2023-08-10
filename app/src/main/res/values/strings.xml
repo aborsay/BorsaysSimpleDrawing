@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Borsays Simple Drawing</string>
+    <string name="small_button">Small Button</string>
+    <string name="large_brush">Large Brush</string>
+    <string name="medium_brush">Medium Brush</string>
+    <string name="small_brush">Small Brush</string>
+</resources>

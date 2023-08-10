@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/background_random.xml" value="0.16" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/largest.xml" value="0.16" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/medium.xml" value="0.16" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/pallet_normal.xml" value="0.196" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/pallet_pressed.xml" value="0.1695" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/random_drawable.xml" value="0.16" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/drawable/random_drawable_pressed.xml" value="0.196" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/layout/activity_main.xml" value="0.8333333333333334" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/layout/dialog_brush_size.xml" value="0.1" />
+        <entry key="..\:/Users/abors/OneDrive/Documents/learning/Android_12_Kotlin_Development_Masterclass/BorsaysSimpleDrawing/app/src/main/res/layout/dialog_bursh_color.xml" value="0.34057971014492755" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
